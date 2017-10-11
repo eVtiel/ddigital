@@ -2,75 +2,56 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Digital</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/pulse.css">
-	<link rel="stylesheet" type="text/css" href="css/dd.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>DD2</title>
 	<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+
+
 </head>
 <body>
-	
-	<div class="main">
-		<div class="container-fixed">
-			<div class="row">
-				<div class="col-md-6 col-sm-6 leftSide">
-
-					<svg class="pin" width="50px" height="80px" viewBox="0 0 50 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    					<desc>Created with Sketch.</desc>
-    					<defs></defs>
-    					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        					<g id="landing" transform="translate(-55.000000, -35.000000)">
-            					<g id="dd-pin" transform="translate(55.000000, 35.000000)">
-                					<path d="M49.7589489,24.7933884 C49.2613594,36.6942149 39.3095696,46.1157025 33.3384957,57.5206612 C27.3699098,68.9209917 24.8794744,80 24.8794744,80 C24.8794744,80 22.7232533,68.0991736 16.4204531,57.5206612 C8.57993555,44.3613223 0,34.7107438 0,24.7933884 C0,11.1003306 11.1388724,0 24.8794744,0 C38.6200764,0 50.3310109,11.1122314 49.7589489,24.7933884" id="Fill-1" fill="#D94B4C"></path>
-                					<path d="M39.0977444,22.8571429 C39.0977444,30.4977639 32.7691276,36.6917293 24.962406,36.6917293 C17.1556845,36.6917293 10.8270677,30.4977639 10.8270677,22.8571429 C10.8270677,15.2165218 17.1556845,9.02255639 24.962406,9.02255639 C32.7691276,9.02255639 39.0977444,15.2165218 39.0977444,22.8571429" id="Fill-4" fill="#FFFFFF"></path>
-            					</g>
-        						</g>
-    						</g>
-						</svg>
-						<div class='pulse'></div>
-						<div class="col-md-12 redBorder">
-							<div class="col-md-12 topBorder"></div>
-							<div class="col-md-12 roundBorder"></div>
-							<img src="img/empirestate-cutout.png" class="img-fluid empireimg" alt="Responsive image">
-							<p>we are</p>
-						</div>
-<!-- 						<div class="col-md-12 col-sm-12 explore">
-							<div class="exploreLine"></div>
-							<div class="exploreText">explore</div>
-						</div>
- -->				</div>
-				<div class="col-md-6 col-sm-6 rightSide">
-					<div class="col-md-12 dd">
-						<section class="cd-intro" style="margin-top:200px;">
-							<h1 class="cd-headline slide">
-								<span class="cd-words-wrapper colourful">
-									<b class="is-visible">digital.</b>
-									<b>design.</b>
-								</span>
-							</h1>
-						</section>	
-					</div>
-					<div class="col-md-12 seccondText">
-						<p>
-							amazing at web & app </br>
-							<span>design + development</span>
-						</p>
-					</div>			
-				</div>
+	<div class="mainContainer">
+		<div class="side leftSide">
+			<div class="redBorderTop">
+				<div class="topBorder"></div>
 			</div>
-			<div class="row">
-				<div class="col-md-12 col-sm-12 explore">
-							<div class="exploreLine"></div>
-							<div class="exploreText">explore</div>
-				</div>			
+			<div class="redBorder">
+				<p>we are</p>
+				<div class="roundBorder"></div>
 			</div>
+			<img src="img/empirestate-cutout.png" class="img-fluid empireimg" alt="Responsive image">
+		</div>
+		<div class="side rightSide">
+			<div id="holder">
+	  		<div id="slogans">
+		  		<p class="slogan"><strong>digital.</strong></p>
+		  		<p class="slogan"><strong>design.</strong></p>
+  			</div>
+  			</div>
 		</div>
 	</div>
+	<div class="mainContainer">
+		<div class="side2 leftSide">
+			
+		</div>
+		<div class="side2 rightSide">
+			<div class="seccondText">
+					<p>
+						amazing at web & app </br>
+						<span>design + development</span>
+					</p>
+			</div>			
+		</div>
+	</div>
+		<div class="explore">
+			<div class="exploreLine"></div>
+			<div class="exploreText">explore</div>
+		</div>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>		
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<script type="text/javascript"  src="js/main.js"></script>
 </body>
 </html>
